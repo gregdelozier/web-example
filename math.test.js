@@ -25,3 +25,10 @@ describe('subtractNumbers', function () {
     });
 });
 
+// Test the subtractNumbers function
+describe('multiplyNumbers', function () {
+    it('should return 30 when multiplying 5 and 6', function () {
+        const result = math.multiplyNumbers(5, 6);
+        assert.strictEqual(result, 30);
+    });
+});
